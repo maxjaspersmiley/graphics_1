@@ -1,0 +1,44 @@
+TO DO:
+
+	"dither-rand",		7
+	"dither-cluster",	10
+	"dither-color",		10
+	"npr-paint",		50
+	"scale",		25/10
+	"rotate"		25/10
+
+	"double",		12/0
+
+
+DONE:
+	"load",
+	"save",
+	"run",
+	"diff",
+
+	"gray",			5
+	"quant-unif",		5
+	"quant-pop",		20
+	?	?  	"dither-thresh",	3
+	?	?  	"dither-bright",	7 
+	?	?  	"dither-fs",		15
+	"filter-box",		15
+	"filter-bartlett",	3
+	"filter-gauss-n",	10
+	"filter-gauss",		3
+	"filter-edge",		3
+	?	?	"filter-enhance",	3
+	"comp-over",		15
+	"comp-in",		3
+	"comp-out",		3
+	"comp-atop",		3
+	"comp-xor",		3
+	?	?	"half",			8/0
+
+	total			91-127			
+
+DEFINED:
+	PUBLIC:
+		To_RGBA
+	PRIVATE:
+		RGB_To_RGBA
